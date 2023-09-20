@@ -1,0 +1,35 @@
+* {
+    font-size: 20px;
+}
+body {
+    background-color: #998c8c;
+}
+.zagolovok
+{
+    color: orange;
+}
+
+.example_block{
+    background-color: wheat;
+}
+#id1
+{
+    color: green;
+}
+
+.example_block3{
+    color: yellow;
+}
+
+.example_block1 {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+div[data-value]
+{
+    background-color: green;
+}
