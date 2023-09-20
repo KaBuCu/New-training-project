@@ -28,8 +28,3 @@ body {
     padding: 10px 15px;
     margin: 10px 0;
 }
-
-div[data-value]
-{
-    background-color: green;
-}
