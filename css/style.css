@@ -1,17 +1,24 @@
+/* Универсальный селектор *, который применяется ко всем элементам */
 * {
-    font-size: 20px;
+    /* Изменить размер текста */
+    font-size: 20px; 
 }
+/* Селектор HTM-тега */
 body {
+    /* Установка цвета фона */
     background-color: #998c8c;
 }
+/* Селектор класса */
 .zagolovok
 {
+    /* Установка цвета текста */
     color: orange;
 }
 
 .example_block{
     background-color: wheat;
 }
+/* Селектор ID */
 #id1
 {
     color: green;
@@ -22,9 +29,13 @@ body {
 }
 
 .example_block1 {
+    /* Установка обводки элемента */
     border: 2px solid black;
+    /* Установка скругления обводки */
     border-radius: 5px;
 
+    /* Внутренний отступ элемента */
     padding: 10px 15px;
+    /* Установка внешнего отступа */
     margin: 10px 0;
 }
